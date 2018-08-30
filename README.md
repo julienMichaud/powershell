@@ -1,2 +1,2 @@
 # powershell
-Scripts fais un travail pour répondre à des besoins spécifiques
+Certains scripts powershell que j'ai effectué au sein de la SNCF. 
