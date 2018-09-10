@@ -7,11 +7,11 @@ Set-Localuser -name administrateur -password $password_admin
 #Activation du compte administrateur local 
 Enable-LocalUser -Name administrateur 
 
-# Ajout de l'ordinateur dans le domaine COMMUN 
+# Ajout de l'ordinateur dans le domaine 
 Add-Computer -DomainName domaine_name -Credential (get-credential) 
 
 
-# Ajout du groupe PSE_TMV_APP_TI_ADM_GG dans le groupe administrateurs de la machine
+# Ajout du groupe  dans le groupe administrateurs de la machine
 Add-LocalGroupMember -group "Administrateurs" -member "groupe"
 
 # Le prochain redémarrage se fera en mode sans echec sans réseau
