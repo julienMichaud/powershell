@@ -7,4 +7,4 @@
 # Permet de supprimer le contenue du dossier enregistrement des cameras 
 #--------------------------------------------------------------------------
 
-Get-ChildItem –Path "\\P50CLRENAMM\C`$\REC" –Recurse | Where-Object{$_.CreationTime –lt (Get-Date).AddMinutes(1)} | Remove-Item
+Get-ChildItem –Path "\\path" –Recurse | Where-Object{$_.CreationTime –lt (Get-Date).AddMinutes(1)} | Remove-Item

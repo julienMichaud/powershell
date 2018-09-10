@@ -14,11 +14,10 @@ net use \\chemin_nas\BASES_SQL login_nas
 # Core settings - you will need to set these 
 $mysql_server = "ip"
 $mysql_user = "nom_utilisateur" 
-$mysql_password = "mot_de_passe"  
-#$backupstorefolder= "C:\test" 
+$mysql_password = "mot_de_passe"   
 $backupstorefolder= "chemin_reseau_sauvegarde" 
-$dbName = "glpi"
-$pathtomysqldump = "C:\xampp\mysql\bin\mysqldump.exe"
+$dbName = "db_name"
+$pathtomysqldump = "path to the sqldump exe"
 
 
 cls
